@@ -1,4 +1,4 @@
-name: Copy mediakind assets
+name: mediakind-sync-action
 description: |
   Copies mediakind assets from one project to another. Requires that videos 
   is uploaded to the storage account before creating the assets

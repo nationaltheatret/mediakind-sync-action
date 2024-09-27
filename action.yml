@@ -1,0 +1,25 @@
+name: Copy mediakind assets
+description: |
+  Copies mediakind assets from one project to another. Requires that videos 
+  is uploaded to the storage account before creating the assets
+
+inputs:
+  mediakind-access-token:
+    required: true
+    type: string
+
+  mediakind-source-project:
+    required: true
+    type: string
+
+  mediakind-destination-project:
+    required: true
+    type: string
+
+  destination-storage-account:
+    required: true
+    type: string
+
+runs:
+  using: 'node20'
+  main: 'index.js'

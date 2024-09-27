@@ -26,7 +26,7 @@ de ulike miljøene er synkronisert.
 
 ``` 
 - name: Run tests
-        uses: nationaltheatret/@main
+        uses: nationaltheatret/mediakind-sync-action@main
         with:
             mediakind-access-token: ${{ secrets.MEDIAKIND_ACCESS_TOKEN }}
             mediakind-source-project: nt-mediakind-prod
